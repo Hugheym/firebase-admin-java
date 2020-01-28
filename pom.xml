@@ -375,6 +375,10 @@
                     <pattern>com.google</pattern>
                     <shadedPattern>shaded.repackaged.com.google</shadedPattern>
                   </relocation>
+                  <relocation>
+                    <pattern>org.threeten</pattern>
+                    <shadedPattern>shaded.repackaged.org.threeten</shadedPattern>
+                  </relocation>
                 </relocations>
               </configuration>
               <executions>
