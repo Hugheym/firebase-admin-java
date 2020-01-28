@@ -367,6 +367,7 @@
                     <include>com.google.guava:*</include>
                     <include>com.google.auth:*</include>
                     <include>com.google.*:*</include>
+                    <include>org.threeten.*:*</include>
                   </includes>
                 </artifactSet>
                 <relocations>
@@ -382,6 +383,9 @@
                   <goals>
                     <goal>shade</goal>
                   </goals>
+                  <configuration>
+                    <minimizeJar>true</minimizeJar>
+                  </configuration>
                 </execution>
               </executions>
             </plugin>
