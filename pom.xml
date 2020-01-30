@@ -367,7 +367,7 @@
                     <include>com.google.guava:*</include>
                     <include>com.google.auth:*</include>
                     <include>com.google.*:*</include>
-                    <include>org.threeten.*:*</include>
+                    <include>org.threeten*:*</include>
                   </includes>
                 </artifactSet>
                 <relocations>
