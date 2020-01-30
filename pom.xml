@@ -368,6 +368,7 @@
                     <include>com.google.auth:*</include>
                     <include>com.google.*:*</include>
                     <include>org.threeten*:*</include>
+                    <include>io.grpc*:*</include>
                   </includes>
                 </artifactSet>
                 <relocations>
@@ -378,6 +379,10 @@
                   <relocation>
                     <pattern>org.threeten</pattern>
                     <shadedPattern>shaded.repackaged.org.threeten</shadedPattern>
+                  </relocation>
+                  <relocation>
+                    <pattern>io.grpc</pattern>
+                    <shadedPattern>shaded.repackaged.io.grpc</shadedPattern>
                   </relocation>
                 </relocations>
               </configuration>
