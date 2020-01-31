@@ -369,6 +369,7 @@
                     <include>com.google.*:*</include>
                     <include>org.threeten*:*</include>
                     <include>io.grpc*:*</include>
+                    <include>io.opencensus*:*</include>
                   </includes>
                 </artifactSet>
                 <relocations>
