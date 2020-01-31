@@ -374,6 +374,9 @@
                     <include>io.grpc*:*</include>
                     <include>io.opencensus*:*</include>
                   </includes>
+                  <excludes>
+                    <exclude>io.grpc.netty.shaded*:*</exclude>
+                  </excludes>
                 </artifactSet>
                 <relocations>
                   <relocation>
