@@ -386,7 +386,7 @@
                   </relocation>
                   <relocation>
                     <pattern>io.grpc</pattern>
-                    <shadedPattern>shaded.repackaged.io.grpc</shadedPattern>
+                    <shadedPattern>shadedpackage.io.grpc</shadedPattern>
                   </relocation>
                 </relocations>
               </configuration>
