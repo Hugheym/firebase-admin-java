@@ -525,5 +525,10 @@
             <version>2.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+           <groupId>io.grpc</groupId>
+           <artifactId>grpc-netty-shaded</artifactId>
+           <version>1.26.0</version>
+        </dependency>
     </dependencies>
 </project>
