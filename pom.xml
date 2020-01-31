@@ -371,12 +371,12 @@
                     <include>com.google.auth:*</include>
                     <include>com.google.*:*</include>
                     <include>org.threeten*:*</include>
-                    <include>io.grpc*:*</include>
+<!--                    <include>io.grpc*:*</include>-->
                     <include>io.opencensus*:*</include>
                   </includes>
-                  <excludes>
-                    <exclude>io.grpc.netty.shaded*:*</exclude>
-                  </excludes>
+<!--                  <excludes>-->
+<!--                    <exclude>io.grpc.netty.shaded*:*</exclude>-->
+<!--                  </excludes>-->
                 </artifactSet>
                 <relocations>
                   <relocation>
@@ -387,10 +387,10 @@
                     <pattern>org.threeten</pattern>
                     <shadedPattern>shaded.repackaged.org.threeten</shadedPattern>
                   </relocation>
-                  <relocation>
-                    <pattern>io.grpc</pattern>
-                    <shadedPattern>shadedpackage.io.grpc</shadedPattern>
-                  </relocation>
+<!--                  <relocation>-->
+<!--                    <pattern>io.grpc</pattern>-->
+<!--                    <shadedPattern>shadedpackage.io.grpc</shadedPattern>-->
+<!--                  </relocation>-->
                 </relocations>
               </configuration>
               <executions>
