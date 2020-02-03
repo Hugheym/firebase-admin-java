@@ -374,9 +374,6 @@
                     <include>io.grpc*:*</include>
                     <include>io.opencensus*:*</include>
                   </includes>
-                  <excludes>
-                    <exclude>io.grpc.netty.shaded*:*</exclude>
-                  </excludes>
                 </artifactSet>
                 <relocations>
                   <relocation>
@@ -529,7 +526,7 @@
         </dependency>
         <dependency>
            <groupId>io.grpc</groupId>
-           <artifactId>grpc-netty-shaded</artifactId>
+           <artifactId>grpc-netty</artifactId>
            <version>1.23.1</version>
         </dependency>
     </dependencies>
