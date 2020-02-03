@@ -387,10 +387,6 @@
                     <pattern>org.threeten</pattern>
                     <shadedPattern>shaded.repackaged.org.threeten</shadedPattern>
                   </relocation>
-                  <relocation>
-                    <pattern>io.grpc</pattern>
-                    <shadedPattern>io.shadedgrpc</shadedPattern>
-                  </relocation>
                 </relocations>
               </configuration>
               <executions>
